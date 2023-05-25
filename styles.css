@@ -1,0 +1,131 @@
+*{
+  font-size: 100%; 
+}
+header{
+    text-transform: capitalize;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 300%;
+    color: #66FCF1;
+}
+header>a{
+    color: #66FCF1;
+    text-shadow: 3px 3px 5px rgb(155, 74, 42);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;  
+}
+body{
+    font-size: 100%;
+    background-color: #0B0C10;
+  /*  background-image: url("One Piece.png");*/
+    background-repeat: no-repeat;
+    background-position: left tp;
+    background-attachment: fixed;
+    background-size: cover;
+}
+nav{
+    margin-top: 30px;
+    color:#66FCF1;
+    padding: 15px;
+}
+ul{
+
+    color:#66FCF1;
+    width: 100%; 
+    margin: auto;
+}
+ul>li{
+    display: inline-block;
+}
+li>a{
+    color:#66FCF1;
+    text-decoration: none;
+    font-size: 200%;
+    box-sizing: border-box;    
+    font-family:  Helvetica, Arial, sans-serif;
+    padding: 30px;
+    width: 75%;
+}
+li>a:hover{
+    text-decoration: none;
+    color: #45A29E;
+    font-family:  Helvetica, Arial, sans-serif;
+    padding: 30px;
+    width: 75%;
+}
+#home{
+    padding: 20px;
+    border: 2px solid #1F2833;
+
+}
+h1{
+    
+    font-family: Arial;
+    font-size: 150%;
+    color: burlywood;           
+}
+p{
+    font-family: verdana;
+    font-size: 500%;
+    color:rgba(78, 102, 32, 0.425);
+}   
+aside{
+    box-sizing: border-box;
+    text-transform: capitalize;
+    font-family: 'Courier New', Courier, monospace;
+    border: 2px solid white;
+    color:darkolivegreen;
+    float: left;
+    width: 50%;
+    padding: 50px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    letter-spacing: 3px;
+    text-align: justify;
+    line-height: 1;
+    background-color: burlywood;
+}
+.column> p{
+    font-size: 140%;
+    color: rgb(56, 192, 44);
+    font-family: 'Courier New', Courier, monospace;
+    column-width: 25%;
+    background-color: burlywood;
+    width: 50%;
+}
+table, th, td{
+    font-size: large;
+    color: darkorange;
+    border-style: double;
+    border: 1px solid white;
+    width: 800px;
+} 
+#tablehead{
+    background-color: #0B0C10;
+}
+caption{
+   color:rgb(17, 153, 69);
+   font-size: larger;
+}
+tr:nth-child(even){
+    background-color: green;
+}
+tr:hover{
+    background-color: #d4eeed;
+}
+ol{
+    background-color:#66FCF1;
+    color: rgb(5, 5, 5);
+    padding: 20px;
+    font-size: 1.3em;
+}
+ol li {
+    background: #ffe5e5;
+    margin: 5px;
+}
+footer{
+    text-align: center;
+    color: #5c4949;
+    font-size: 130%;
+    font-weight: bolder;
+}

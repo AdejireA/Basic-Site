@@ -1,0 +1,94 @@
+
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Formpage">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <title>Formspage</title>
+        <style>
+            header>a{
+                color: #66FCF1;
+                text-shadow: 3px 3px 5px rgb(155, 74, 42);
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                text-decoration: none;
+                text-transform: capitalize;
+                text-decoration: none;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 300%;
+            }
+            body{
+                color: #66FCF1;
+            }
+            .Formpage{
+                padding: 50px;
+                margin-left: 400px;
+                margin-top: 100px;
+                margin-right: 400px;
+                color: rgb(26, 4, 4);
+                border-width: 5px;
+                border-color: black;
+                border-bottom-color: rgb(37, 23, 7);
+                border-style: double;
+                border-end-end-radius: 20px;
+                background-color: #45A29E;
+            }
+            .formpage > h1, p{
+                text-align: center;
+                margin-top: 50px;
+                color: white;
+            }
+            h2{
+                color: white;
+            }
+            a{
+                text-decoration: none;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 200%;
+                color: rgba(51, 184, 194, 0.514);
+                
+            }
+            a:hover{
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: bolder;
+
+            }
+            
+        </style>
+        <body style="background-color: #0B0C10;">
+            <header><a href="index.html">AJ TECHNOLOGIES</a></header>
+
+            <h1>CONTACT US<br>Contact the help team</h1>
+            <a href="index.html">BACK </a>
+
+            <div class="Formpage">
+                <form action="" autocomplete="on">
+                    <h2>Personal Information</h2>
+                    <p>Lets get to know you a little better</p>
+                    <label for="Fname">Firstname:</label><br />
+                    <input type="text" id="Fname" placeholder=" FIRSTNAME" name="Fname"  ><br />
+                    <label for="Lname">Lastname:</label><br />
+                    <input type="text" id="Lname" placeholder="LASTNAME" name="Lname"><br />
+                    <label for="male">Male</label>
+                    <input type="radio" id="male" name="gender" value="male">
+
+                    <label for="female">Female</label>
+                    <input type="radio" id="female" name="gender" value="female"><br />
+                    <label for="email">Email address:</label><br />
+                    <input type="email" id="email" placeholder=" " name="email"  ><br />
+                    <label for="phone">Phone Number:</label><br />
+                    <input type="tel" id="phone" placeholder=" Input number" name="phone"  ><br />
+                    <label for="country">Country:</label><br />
+                    <input type="text" id="country" name="country"  ><br />
+                    
+                    <label for="message">Message:</label><br />
+                    <textarea name="message" placeholder="WRITE COMPLAINTS AND HIT THE HOLLA ME BUTTON BEFORE SUBMITTING" style="width:200px; height: 300px;"></textarea><br />
+                    <input type="submit">
+                    <input type="reset">
+                    <button type="button" onclick="alert('HELLO')"> HOLLA ME!</button>
+                    </form>
+                        
+            </div>
+        </body>
+    </head>
+</html>
